@@ -54,7 +54,16 @@
 /*==================[internal functions definition]==========================*/
 
 /*==================[external functions definition]==========================*/
+extern int16_t sumaint16(uint16_t a, uint16_t b)
+{
+    return a+b;
+}
 
+
+extern int16_t restaint16(uint16_t a, uint16_t b)
+{
+	return a-b;
+}
 /** @} doxygen end group definition */
 /** @} doxygen end group definition */
 /*==================[end of file]============================================*/
