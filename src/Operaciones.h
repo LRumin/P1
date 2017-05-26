@@ -67,6 +67,7 @@ extern "C" {
  ** \return E_OK  returns ...
  **/
 extern int16_t sumaint16(uint16_t a, uint16_t b);
+extern int16_t restaint16(uint16_t a, uint16_t b);
 
 /*==================[cplusplus]==============================================*/
 #ifdef __cplusplus
