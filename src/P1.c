@@ -10,8 +10,11 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include "Operaciones.h"
 
 int main(void) {
-	puts("!!!Hola Mundo!!!"); /* prints !!!Hello World!!! */
+	uint16_t Suma;
+	Suma = sumaint16(2,5);
+	puts(Suma); /* prints !!!Hello World!!! */
 	return EXIT_SUCCESS;
 }
